@@ -1,0 +1,97 @@
+                         ┌─────────────────────────┐
+                         │      «abstract»         │
+                         │         Ticket          │
+                         ├─────────────────────────┤
+                         │ + calculatePrice()      │
+                         │ + getType()             │
+                         └────────────▲────────────┘
+                                       │
+                         ┌────────────┴────────────┐
+                         │                         │
+              ┌──────────────────┐      ┌──────────────────┐
+              │  RegularTicket   │         │  StudentTicket   │
+              ├──────────────────┤      ├──────────────────┤
+              │ +calculatePrice()│         │ +calculatePrice()│
+              │ +getType()       │         │ +getType()       │
+              └──────────────────┘      └──────────────────┘
+
+
+┌──────────────────┐
+│     Station      │
+├──────────────────┤
+│ - id : int       │
+│ - name : string  │
+│ - usageCount:int │
+├──────────────────┤
+│ + getId()        │
+│ + getName()      │
+│ + increaseUsage()│
+└──────────────────┘
+
+
+┌──────────────────┐
+│       Node       │
+├──────────────────┤
+│ - stationIndex   │
+│ - next : Node*   │
+├──────────────────┤
+│ + getStation...  │
+│ + getNext()      │
+│ + setNext()      │
+└──────────────────┘
+
+
+┌──────────────────────────┐
+│       MetroGraph         │
+├──────────────────────────┤
+│ - stations[]             │
+│ - adjacency[] : Node*    │
+│ - stationCount           │
+├──────────────────────────┤
+│ + addStation()           │
+│ + connectStations()      │
+│ + viewAllStations()      │
+│ + viewConnections()      │
+│ + findShortestRoute()    │
+│ - findStationIndex()     │
+│ - rebuildRouteRecursive()│
+└──────────────────────────┘
+
+
+┌──────────────────────────┐
+│       RouteQueue         │
+├──────────────────────────┤
+│ - front : QueueNode*     │
+│ - rear : QueueNode*      │
+├──────────────────────────┤
+│ + enqueue()              │
+│ + dequeue()              │
+│ + isEmpty()              │
+└──────────────────────────┘
+
+
+┌──────────────────────────┐
+│          Trip            │
+├──────────────────────────┤
+│ - from : string          │
+│ - to : string            │
+│ - stations : int         │
+│ - type : string          │
+│ - price : double         │
+├──────────────────────────┤
+│ + operator<()            │
+└──────────────────────────┘
+
+
+┌──────────────────────────┐
+│       Passenger          │
+├──────────────────────────┤
+│ - balance : double       │
+│ - trips[] : Trip         │
+│ - tripCount : int        │
+├──────────────────────────┤
+│ + addBalance()           │
+│ + buyTicket()            │
+│ + addTrip()              │
+│ + showTripHistory()      │
+└──────────────────────────┘
