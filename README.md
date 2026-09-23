@@ -1,4 +1,5 @@
-# Metro_Route_Finder 
+# Metro Route Finder
+
 A C++ console-based Metro Route Finder application developed using Object-Oriented Programming (OOP), custom data structures, and graph algorithms.
 
 The project models a metro network as a graph and allows passengers to find the shortest route between stations, calculate ticket prices, manage their balance, and keep track of their trips.
@@ -320,12 +321,20 @@ The algorithm also counts the number of comparisons performed during sorting.
 
 # Time Complexity
 
-| Operation             | Complexity |
-| --------------------- | ---------- |
-| Linear Station Search | O(V)       |
-| BFS                   | O(V + E)   |
-| Route Reconstruction  | O(V)       |
-| Bubble Sort           | O(V²)      |
+|   |
+| - |
+
+| OperationAlgorithmBig O |                       |                 |
+| ----------------------- | --------------------- | --------------- |
+| Find station            | Linear Search         | O(V)            |
+| Add station             | Array insertion       | O(1)            |
+| Connect stations        | Linked List insertion | O(1)            |
+| Check connection        | Linked List search    | O(E) worst case |
+| BFS                     | Breadth First Search  | O(V + E)        |
+| Rebuild route           | Recursion             | O(V)            |
+| Usage sorting           | Bubble Sort           | O(V²)           |
+| Queue enqueue           | Linked Queue          | O(1)            |
+| Queue dequeue           | Linked Queue          | O(1)            |
 
 Where:
 
