@@ -1,0 +1,47 @@
+========================================
+        METRO ROUTE FINDER
+========================================
+
+1. View all stations
+2. View connections
+3. Find route
+4. Buy ticket
+5. Wallet
+6. Trip history
+7. Station usage report
+8. Admin
+0. Exit
+
+Enter your choice: 1
+Enter your choice: 3
+
+Enter starting station: Maadi
+Enter destination station: Opera
+
+Shortest route:
+Maadi -> ... -> Opera
+
+Number of stations: ...
+Enter your choice: 4
+
+Choose ticket type:
+1. Regular Ticket
+2. Student Ticket
+
+Enter your choice: 2
+
+Ticket purchased successfully.
+Enter your choice: 5
+
+Current Balance: ...
+Enter your choice: 6
+
+Trip History:
+From: Maadi
+To: Opera
+Ticket Type: Student
+Price: ... EGP
+Enter your choice: 7
+
+Station Usage Report:
+...
