@@ -1,0 +1,139 @@
+========================================
+        METRO ROUTE FINDER
+========================================
+
+1. View all stations
+2. View connections
+3. Find route
+4. Buy ticket
+5. Wallet
+6. Trip history
+7. Station usage report
+8. Admin
+0. Exit
+
+Enter your choice: 1
+
+---------- ALL STATIONS ----------
+
+1. Helwan
+2. Ain Helwan
+3. Wadi Hof
+4. Hadayek Helwan
+5. El-Maasara
+6. Tora El-Asmant
+7. Kozzika
+8. Tora El-Balad
+9. Sakanat El-Maadi
+10. Maadi
+11. Hadayek El-Maadi
+12. Dar El-Salam
+13. El-Zahraa
+14. Mar Girgis
+15. El-Malek El-Saleh
+16. Opera
+========================================
+        FIND SHORTEST ROUTE
+========================================
+
+Enter starting station: Maadi
+Enter destination station: Opera
+
+Searching for shortest route...
+
+Route found:
+
+Maadi
+  ↓
+Hadayek El-Maadi
+  ↓
+Dar El-Salam
+  ↓
+El-Zahraa
+  ↓
+Mar Girgis
+  ↓
+El-Malek El-Saleh
+  ↓
+Opera
+
+Number of stations: 6
+========================================
+             BUY TICKET
+========================================
+
+Start station: Maadi
+Destination: Opera
+
+Number of stations: 6
+
+Select ticket type:
+
+1. Regular Ticket
+2. Student Ticket
+
+Enter your choice: 2
+
+Ticket Type: Student
+Number of stations: 6
+Ticket Price: 4 EGP
+
+Current Balance: 20 EGP
+
+Ticket purchased successfully!
+
+Remaining Balance: 16 EGP
+========================================
+              WALLET
+========================================
+
+Current Balance: 16 EGP
+
+1. Add Balance
+2. View Balance
+0. Back
+
+Enter your choice: 2
+
+Current Balance: 16 EGP
+Enter your choice: 1
+
+Enter amount to add: 20
+
+Balance added successfully!
+
+New Balance: 36 EGP
+========================================
+            TRIP HISTORY
+========================================
+
+Trip #1
+
+From       : Maadi
+To         : Opera
+Stations   : 6
+Ticket     : Student
+Price      : 4 EGP
+
+----------------------------------------
+
+Total Trips: 1
+========================================
+        STATION USAGE REPORT
+========================================
+
+Station                 Usage
+--------------------------------
+Maadi                      1
+Hadayek El-Maadi           1
+Dar El-Salam               1
+El-Zahraa                  1
+Mar Girgis                 1
+El-Malek El-Saleh          1
+Opera                      1
+
+--------------------------------
+
+Stations sorted by usage.
+
+Number of comparisons: 21
