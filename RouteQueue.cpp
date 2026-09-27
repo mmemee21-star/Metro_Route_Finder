@@ -1,4 +1,4 @@
-#include "../include/RouteQueue.h"
+#include "RouteQueue.h"
 #include <stdexcept>
 
 QueueNode::QueueNode(int value)
