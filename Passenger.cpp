@@ -1,4 +1,4 @@
-#include "../include/Passenger.h"
+#include "Passenger.h"
 
 #include <iostream>
 #include <iomanip>
@@ -93,6 +93,11 @@ void Passenger::showTripHistory() const
              << trips[i].getPrice()
              << " EGP\n";
     }
+
+    cout << tripCount
+         << " trips.\n";
+}
+
 
     cout << tripCount
          << " trips.\n";
