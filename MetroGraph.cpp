@@ -1,4 +1,4 @@
-#include "../include/MetroGraph.h"
+#include "MetroGraph.h"
 
 #include <iostream>
 #include <string>
