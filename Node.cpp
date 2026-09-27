@@ -1,4 +1,4 @@
-#include "../include/Node.h"
+#include "Node.h"
 
 Node::Node(int index)
     : stationIndex(index), next(nullptr) {}
