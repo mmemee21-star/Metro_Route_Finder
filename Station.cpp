@@ -1,4 +1,4 @@
-#include "../include/Station.h"
+#include "Station.h"
 
 Station::Station()
 {
@@ -32,6 +32,11 @@ int Station::getUsageCount() const
 void Station::setName(const std::string& newName)
 {
     name = newName;
+}
+
+void Station::increaseUsage()
+{
+    usageCount++;
 }
 
 void Station::increaseUsage()
