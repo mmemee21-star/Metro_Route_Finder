@@ -2,10 +2,10 @@
 #include <string>
 #include <iomanip>
 
-#include "../include/MetroGraph.h"
-#include "../include/Passenger.h"
-#include "../include/Ticket.h"
-#include "../include/Trip.h"
+#include "MetroGraph.h"
+#include "Passenger.h"
+#include "Ticket.h"
+#include "Trip.h"
 
 using namespace std;
 
