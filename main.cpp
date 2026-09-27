@@ -19,8 +19,7 @@ void buildInitialNetwork(MetroGraph& metro);
 void showMainMenu();
 
 void findRoute(
-    MetroGraph& metro,
-    Passenger& passenger
+    MetroGraph& metro
 );
 
 void buyTicket(
@@ -93,8 +92,7 @@ int main()
 
         case 3:
             findRoute(
-                metro,
-                passenger
+                metro
             );
             break;
 
@@ -298,8 +296,7 @@ int getIntegerInput()
 // ==========================================
 
 void findRoute(
-    MetroGraph& metro,
-    Passenger& passenger
+    MetroGraph& metro
 )
 {
     string from;
